@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1438882313 source:d:\codeblocks\projectsc\zadatak_1 (6.8.2015.)\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+
