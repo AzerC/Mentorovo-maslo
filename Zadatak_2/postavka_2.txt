@@ -1,0 +1,41 @@
+Napisati program koji unosi na standardnom ulazu broj n, 100<n<1000 (obavezno vratiti korisnika nazad na unos ukoliko je neispravan), te ispisuje sljedece oblike:
+
+kvadrat (nxn), primjer (n=4):
+****
+****
+****
+****
+
+kvadrat(nxn), primjer (n=4):
+*|*|
+*|*|
+*|*|
+*|*|
+
+trougao(nxn), primjer (n=4):
+*
+**
+***
+****
+
+trougao (nxn), primjer (n=4):
+****
+***
+**
+*
+
+trougao (nxn), primjer (n=4):
+   *
+  ***
+ *****
+*******
+
+romb (nxn) n-neparno, primjer (n=7):
+      *
+    *   *
+  *       *
+*           *
+  *       *
+    *   *
+      *
+
