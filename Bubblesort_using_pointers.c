@@ -5,45 +5,46 @@
 
 #include <stdio.h>
 #include <stdlib.h>
-void sort (int *pok, int vel)
+void sort (int *ptr, int n)
 {
-    int *p, *q, help;
-    for (p = pok; p < pok + vel; p++)
+   int *i, *j, swap;
+
+for(i = ptr; i < (ptr + n); i++)
+{
+    for(j = i + 1; j < (ptr + n) ; j++)
     {
-        for (q = p + 1; q < pok + vel; q++)
+        if(*j > *i)
         {
-            if (*q > *p)
-            {
-                help = *p;
-                *p = *q;
-                *q = help;
-            }
+            swap = *i;
+            *i = *j;
+            *j = swap;
         }
     }
+}
 }
 
 int main()
 {
-    int n, i, help;
+    int n, i;
     int *p;
+    int niz[100];
 
+    do
+    {
     printf("Unesite n: ");
     scanf("%d", &n);
+    }while (n >= 100);
 
-    int niz [n];
 
     for (i = 0; i < n; i++)
     {
         scanf("%d", &niz[i]);
     }
 
-    p = niz [0];
-    sort(&p, n);
+    p = &niz[0];
+    sort(p, n);
 
     for (i = 0; i < n; i++)
-    {
-        printf("%d", niz[i]);
-    }
-
+        printf("%d", *(p+i));
     return 0;
 }
