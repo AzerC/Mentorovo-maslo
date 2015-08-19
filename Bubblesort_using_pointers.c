@@ -1,3 +1,8 @@
+//Potrebno je napisati funkciju SORTIRAJ koja slaže po veličini niz realnih brojeva, pri čemu
+//se dužina niza funkciji prosljeđuje kao argument. Nakon pisanja funkcije, napraviti kratki
+//program koji je testira. Primjer algoritma za sortiranje je mogude nadi u tutorijalu 6.
+//Za rješavanje je obavezno korištenje pokazivačke aritmetike.
+
 #include <stdio.h>
 #include <stdlib.h>
 void sort (int *pok, int vel)
