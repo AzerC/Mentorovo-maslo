@@ -1,3 +1,14 @@
+//Data je slijedeca struktura:
+//struct Vrijeme
+//{
+//    int sati;
+//    int minute;
+//    int sekunde;
+//};
+//Napraviti program koji vrši unos dvije varijable koje su tipa struct Vrijeme, a potom
+//odreðuje koliko je sekundi prošlo izmeðu ta dva vremena. Koristiti funkcije unos_vremena () i proteklo(),
+//i paziti na sluèaj kada je drugo vrijeme ispred prvog.
+
 #include <stdio.h>
 #include <stdlib.h>
 
