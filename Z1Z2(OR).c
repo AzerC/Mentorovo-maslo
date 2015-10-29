@@ -1,3 +1,25 @@
+//Program treba najprije omogućiti unos jednog cijelog broja n. Ako je broj paran, ako je manji od 3 ili veći od 100 
+//treba ispisati poruku “Broj je van trazenog opsega” i prekinuti rad programa. 
+//U suprotnom na ekranu treba iscrtati oblik kao na primjeru ulaza i izlaza ispod, sastavljen od znakova plus (+):
+
+//Unesite broj n: 7
+
+//   +
+//  + +
+// +   +
+//+++++++
+//++   ++
+//+ + + +
+//+  +  +
+//+ + + +
+//++   ++
+//+++++++
+
+//Oblik se sastoji od:
+//kvadrata čije su sve stranice duge n pluseva;
+//obje dijagonale tog kvadrata
+//dvije kose crte koje čine “krov kućice” a koje su duge po n/2 pluseva.
+
 #include <stdio.h>
 #include <stdlib.h>
 
