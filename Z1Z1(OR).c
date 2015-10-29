@@ -1,3 +1,16 @@
+//Napišite program koji omogućuje unos tri realna broja koji čine dužine stranica nekog trougla. Program treba na ekran 
+//ispisati sljedeće poruke (bez navodnika):
+//“Brojevi moraju biti pozitivni i veci od nule” ako je korisnik unio negativan broj ili nulu kao jednu od stranica.
+//“Nije trougao” ako su brojevi veći od nule, ali su takvi da oni ne mogu činiti dužine stranica trougla.
+//“Jednakostranicni trougao” ako brojevi opisuju jednakostranični trougao.
+//“Jednakokraki trougao” ako brojevi opisuju trougao koji je jednakokraki ali nije jednakostranični.
+//“Pravougli trougao” ako brojevi opisuju pravougli trougao.
+//“Obicni trougao” ako nijedan od iznad nabrojanih uslova nije ispunjen.
+
+//Obratite pažnju da trougao može biti istovremeno jednakokraki i pravougli,
+//pa u tom slučaju treba na ekran ispisati obje poruke 
+//(prvo poruku “Jednakokraki trougao” a zatim “Pravougli trougao” u zasebnim redovima).
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
